@@ -1,0 +1,44 @@
+{
+  "name": "marigold-twilight-theme",
+  "displayName": "Marigold Twilight Theme",
+  "description": "Deep plum dusk with marigold light: warm paper in the light variant, a purple night with amber glow in the dark one.",
+  "version": "1.0.0",
+  "publisher": "lilinhuang",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "marigold",
+    "twilight"
+  ],
+  "icon": "assets/icon.png",
+  "license": "SEE LICENSE IN LICENSE",
+  "galleryBanner": {
+    "color": "#3A2048",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaxicy/marigold-twilight-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Marigold Twilight Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/marigold-twilight-light-color-theme.json"
+      },
+      {
+        "label": "Marigold Twilight Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/marigold-twilight-dark-color-theme.json"
+      }
+    ]
+  }
+}

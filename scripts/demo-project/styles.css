@@ -1,0 +1,15 @@
+:root {
+  --night: #522d60;
+  --plum: #80426e;
+  --marigold: #f2a67b;
+  --amber: #ffd38b;
+  --ink: #3e2438;
+}
+
+.dusk-card {
+  background: #fffbf6;
+  border: 1px solid var(--amber);
+  border-radius: 14px;
+  color: var(--ink);
+  padding: 16px 20px;
+}
